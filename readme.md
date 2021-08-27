@@ -1,10 +1,10 @@
-wrinkles detector 
+Face tracker (68 facial landmark points)
 
 /images api 
-return winkle highlighted pictures
+return landmark highlighted pictures
 
-/density api
-return wrinkle density of different parts of the face
+/pointsraw api
+return pixel coordinates of the 68 landmarks on a face
 
 docker build -t <tag>
 docker run -it <image>
