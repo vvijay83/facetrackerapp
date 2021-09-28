@@ -10,8 +10,8 @@ from flask import Flask, render_template, request, send_file, jsonify
 import time
 from werkzeug.utils import secure_filename
 
-s3 = boto3.client('s3', aws_access_key_id='AKIASOI47QIXYRP73AWO',
-         aws_secret_access_key= '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', region_name='us-east-1')
+s3 = boto3.client('s3', aws_access_key_id='',
+         aws_secret_access_key= '', region_name='us-east-1')
 
 bucket_name="facetracker-output"
 
